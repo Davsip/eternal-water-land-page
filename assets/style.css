@@ -1,0 +1,11 @@
+html,
+body {
+  background: url("../assets/img/pexels-photo-290678.jpeg") center center
+    no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+#logo img {
+  padding-top: 20px;
+}
