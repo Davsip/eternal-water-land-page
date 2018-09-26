@@ -1,11 +1,103 @@
 html,
 body {
-  background: url("../assets/img/pexels-photo-290678.jpeg") center center
-    no-repeat;
+  background: linear-gradient(rgba(37, 39, 39, 0.5), rgba(8, 33, 44, 0.5)),
+    url("./img/water-5.jpg") center center no-repeat;
   height: 100%;
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  #logo img {
+    width: 50%;
+  }
+
+  #counter .countdown {
+    font-size: 1.5em !important;
+  }
+  #icons .fab {
+    margin: 10px 0 0 !important;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 568px) {
+  #logo img {
+    width: 40%;
+  }
+}
 #logo img {
+  padding-top: 15px;
+}
+
+#intro p {
+  color: #fff;
+  text-align: center;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding-top: 2em;
+}
+
+.note {
+  color: #fff;
+  font-size: 15px;
+}
+
+#counter .countdown {
+  text-align: center;
+  padding-top: 1.3em;
+  color: rgb(255, 255, 255, 0.8);
+  font-family: "Lato", sans-serif;
+  font-size: 2.5em;
+  margin: -15px 0 0;
+}
+
+#icons {
+  text-align: center;
+}
+
+#icons .fab {
+  color: #fff;
+  margin: 5px 15px;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#icons .twitter:hover {
+  color: #6cadde;
+  bottom: 5px;
+}
+
+#icons .facebook:hover {
+  color: #3b5998;
+  bottom: 5px;
+}
+#icons .google:hover {
+  color: #ea4335;
+  bottom: 5px;
+}
+
+#icons .instagram:hover {
+  color: #517fa6;
+  bottom: 5px;
+}
+
+#sign-up {
+  text-align: center;
+}
+
+#sign-up .form-inline {
+  display: block;
+}
+
+#sign-up .btn {
+  background-color: rgba(161, 186, 226, 0.5);
+  color: #fff;
+}
+
+#sign-up .btn:hover {
+  background-color: rgba(37, 165, 02, 1);
 }
