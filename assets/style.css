@@ -1,7 +1,7 @@
 html,
 body {
   background: linear-gradient(rgba(37, 39, 39, 0.5), rgba(8, 33, 44, 0.5)),
-    url("./img/water-5.jpg") center center no-repeat;
+    url("./img/green-pic.jpeg") center center no-repeat;
   height: 100%;
   background-size: cover;
 }
@@ -20,20 +20,25 @@ body {
   }
 }
 
-@media (min-width: 321px) and (max-width: 568px) {
+@media (min-width: 320px) and (max-width: 812px) {
   #logo img {
     width: 40%;
   }
+  /* #counter .countdown {
+      width: 
+  } */
 }
+
 #logo img {
-  padding-top: 15px;
+  margin: auto;
+  padding-top: 20px;
 }
 
 #intro p {
   color: #fff;
   text-align: center;
   font-family: "Cedarville Cursive", cursive;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 1px;
   padding-top: 2em;
 }
@@ -62,8 +67,8 @@ body {
   position: relative;
   bottom: 0;
   transition: all 0.2s ease-in-out;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #icons .twitter:hover {

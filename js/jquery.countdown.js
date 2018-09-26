@@ -56,8 +56,8 @@
             },
             render: function(date) {
               this.el.innerHTML =
-                date.years +
-                " years, " +
+                /*date.years + */
+                /* " years, " +*/
                 date.days +
                 " days, " +
                 this.leadingZeros(date.hours) +
