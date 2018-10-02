@@ -1,8 +1,7 @@
 html,
 body {
-  background: 
-  /* linear-gradient(rgba(47, 49, 49, 0.5), rgba(6, 69, 241, 0.5)), */ url("./img/drop-of-water-inject-water-drip-45229.jpeg")
-    center center no-repeat;
+  background: linear-gradient(rgba(47, 49, 49, 0.5), rgba(9, 226, 255, 0.5)),
+    url("./img/pexels-photo-165985.jpeg") center center no-repeat;
   height: 100%;
   background-size: cover;
 }
@@ -10,6 +9,11 @@ body {
 @media (max-width: 768px) {
   #logo img {
     width: 50%;
+  }
+
+  #logo .main-title {
+    margin: 5px 0 0 !important;
+    font-size: 1em;
   }
 
   #counter .countdown {
@@ -37,6 +41,8 @@ body {
 
 .main-title {
   color: #fff;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
 }
 
 #intro .message {
@@ -98,6 +104,7 @@ body {
 
 #donate {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #donate .form-inline {
