@@ -1,7 +1,8 @@
 html,
 body {
-  background: linear-gradient(rgba(37, 39, 39, 0.5), rgba(8, 33, 44, 0.5)),
-    url("./img/green-pic.jpeg") center center no-repeat;
+  background: 
+  /* linear-gradient(rgba(47, 49, 49, 0.5), rgba(6, 69, 241, 0.5)), */ url("./img/drop-of-water-inject-water-drip-45229.jpeg")
+    center center no-repeat;
   height: 100%;
   background-size: cover;
 }
@@ -20,7 +21,7 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 812px) {
+@media (min-width: 320px) and (max-width: 568px) {
   #logo img {
     width: 40%;
   }
@@ -34,13 +35,18 @@ body {
   padding-top: 20px;
 }
 
-#intro p {
+.main-title {
+  color: #fff;
+}
+
+#intro .message {
   color: #fff;
   text-align: center;
-  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lato", sans-serif;
+
   font-size: 2em;
   letter-spacing: 1px;
-  padding-top: 2em;
+  padding-top: 1.8em;
 }
 
 .note {
@@ -90,19 +96,22 @@ body {
   bottom: 5px;
 }
 
-#sign-up {
+#donate {
   text-align: center;
 }
 
-#sign-up .form-inline {
+#donate .form-inline {
   display: block;
 }
 
-#sign-up .btn {
+#donate .btn {
   background-color: rgba(161, 186, 226, 0.5);
   color: #fff;
+
+  border-radius: 10px;
+  font-size: 20px;
 }
 
-#sign-up .btn:hover {
+#donate .btn:hover {
   background-color: rgba(37, 165, 02, 1);
 }
